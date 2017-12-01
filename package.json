@@ -1,0 +1,19 @@
+{
+  "name": "untitled2",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "jest": {
+    "unmockedModulePathPatterns": [
+      "<rootDir>/node_modules/*"
+    ],
+    "automock": false,
+    "testEnvironment": "node"
+  },
+  "dependencies": {
+    "needle": "^1.1.0",
+    "jest": "^21.2.1"
+  }
+}
